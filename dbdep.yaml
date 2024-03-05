@@ -21,7 +21,7 @@ spec:
             name: vpro-db-data
         resources:
           limits:
-            memory: "1G"
+            memory: "800M"
             cpu: "0.5"          
         ports:
         - name: vpro-db-port
