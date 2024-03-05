@@ -17,7 +17,7 @@ spec:
         resources:
           limits:
             memory: "500M"
-            cpu: "2000m"
+            cpu: "0.2"
         ports:
         - name: vpro-rmq-port
           containerPort: 15672
