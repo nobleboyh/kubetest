@@ -16,7 +16,7 @@ spec:
         image: vprofile/vproapp:V1
         resources:
           limits:
-            memory: "2G"
+            memory: "800M"
             cpu: "1"
         ports:
         - name: vpro-app-port
