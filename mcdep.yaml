@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vpro-mc-deploy
+spec:
+  selector:
+    matchLabels:
+      app: vpro-mc
+  template:
+    metadata:
+      labels:
+        app: vpro-mc
+    spec:
+      containers:
+      - name: vpro-mc
+        image: memcached
+        resources:
+          limits:
+            memory: "500M"
+            cpu: "500m"
+        ports:
+        - name: mc-port
+          containerPort: 11211
