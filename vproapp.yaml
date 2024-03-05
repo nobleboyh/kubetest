@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: vpro-app
-        image: vprofile/vproapp:V1
+        image: vprofile/vprofileapp
         resources:
           limits:
             memory: "800M"
