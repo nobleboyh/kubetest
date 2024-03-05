@@ -22,7 +22,7 @@ spec:
         resources:
           limits:
             memory: "1G"
-            cpu: "5000m"          
+            cpu: "0.5"          
         ports:
         - name: vpro-db-port
           containerPort: 3306
