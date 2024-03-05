@@ -34,7 +34,7 @@ spec:
                 key: dbpw
     #-------- OTHER CONFIG-----------
       nodeSelector:
-        zone: ap-southeast-1a
+        for: db
       volumes:
         - name: vpro-db-data
           awsElasticBlockStore:
