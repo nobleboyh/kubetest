@@ -14,10 +14,6 @@ spec:
       containers:
       - name: vpro-app
         image: vprofile/vprofileapp
-        resources:
-          limits:
-            memory: "800M"
-            cpu: "1"
         ports:
         - name: vpro-app-port
           containerPort: 8080
